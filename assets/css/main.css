@@ -140,7 +140,7 @@ input, select, textarea {
 		-webkit-transition: color 0.2s ease, border-bottom-color 0.2s ease;
 		-ms-transition: color 0.2s ease, border-bottom-color 0.2s ease;
 		transition: color 0.2s ease, border-bottom-color 0.2s ease;
-		border-bottom: dotted 1px;
+		border-bottom: solid 1px;
 		color: inherit;
 		text-decoration: none;
 	}
@@ -3630,7 +3630,7 @@ input, select, textarea {
 
 		#banner p {
 			letter-spacing: 0.225em;
-			text-transform: uppercase;
+			
 		}
 
 			#banner p a {
@@ -3996,4 +3996,8 @@ input, select, textarea {
 
 	body.is-mobile.landing #footer {
 		background-color: #1d242a;
+	}
+	img.resize{
+		max-width:50%;
+		max-height:50%;
 	}
